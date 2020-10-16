@@ -12,8 +12,12 @@ int main()
 	int b = 2;
 	
 	int tongab= tong(a,b);
+	int tichab= tich(a,b);
+	float thuongab= thuong(a,b);
 	
-	cout<<"tong a + b = "<<tong;
+	cout<<"tong a + b = "<<tongab;
+	cout<<"tich a * b = "<tichab;
+	cout<<"thuong a / b = "<thuongab;
 	system("pause");
 	return 0;
 }
@@ -23,4 +27,10 @@ int tong(int a, int b)
 	int tong=0;
 	tong=a+b;
 	return tong;
+}
+int tich(int a, int b)
+{
+	int tich=0;
+	tich=a*b;
+	return tich;
 }
