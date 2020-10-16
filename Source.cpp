@@ -13,7 +13,7 @@ int main()
 	
 	int tongab= tong(a,b);
 	
-	cout<<"tong a + b = "<<tong;
+	cout<<"tong a + b = "<<tongab;
 	system("pause");
 	return 0;
 }
