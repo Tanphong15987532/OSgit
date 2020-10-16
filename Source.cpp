@@ -10,14 +10,10 @@ int main()
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
 	int a = 10;
 	int b = 2;
-	
-	int tongab= tong(a,b);
-	
+	int tongab= tong(a,b);	
 	cout<<"tong a + b = "<<tongab;
-	
 	int hieuab = hieu(a,b);
 	cout <<"Hieu a - b = " << hieuab << endl;
-	
 	system("pause");
 	return 0;
 }
