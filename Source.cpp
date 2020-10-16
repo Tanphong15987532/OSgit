@@ -10,6 +10,7 @@ int main()
 	cout << "DAY LA CHUONG TRINH DE THUC HANH GIT";
 	int a = 10;
 	int b = 2;
+
 	
 	int tongab= tong(a,b);
 	int tichab= tich(a,b);
@@ -18,6 +19,12 @@ int main()
 	cout<<"tong a + b = "<<tongab;
 	cout<<"tich a * b = "<tichab;
 	cout<<"thuong a / b = "<thuongab;
+
+	int tongab= tong(a,b);	
+	cout<<"tong a + b = "<<tongab;
+	int hieuab = hieu(a,b);
+	cout <<"Hieu a - b = " << hieuab << endl;
+
 	system("pause");
 	return 0;
 }
@@ -28,9 +35,16 @@ int tong(int a, int b)
 	tong=a+b;
 	return tong;
 }
+
 int tich(int a, int b)
 {
 	int tich=0;
 	tich=a*b;
 	return tich;
+
+int hieu(int a, int b){
+	int sum = 0;
+	sum = a - b;
+	return b;
+
 }
