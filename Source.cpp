@@ -20,8 +20,8 @@ int main()
 	cout<<"tich a * b = "<tichab;
 	cout<<"thuong a / b = "<thuongab;
 
-	int tongab= tong(a,b);	
-	cout<<"tong a + b = "<<tongab;
+		
+	
 	int hieuab = hieu(a,b);
 	cout <<"Hieu a - b = " << hieuab << endl;
 
@@ -47,4 +47,10 @@ int hieu(int a, int b){
 	sum = a - b;
 	return b;
 
+}
+float thuong(int a, int b)
+{
+	float thuong=0;
+	thuong=a/b;
+	return thuong;
 }
